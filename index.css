@@ -45,7 +45,7 @@ header {
     display: flex;
   }
   .menulinks a {
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-size: 1.1rem;
   }
   .menulinks a:hover {
@@ -76,7 +76,6 @@ main {
    .intro {
     width: 65%;
     margin: 0 0;
-
    } 
 }
 @media (max-width: 1023px) {
@@ -103,7 +102,7 @@ main {
   color: hsl(240, 100%, 5%);
   font-family: 'Inter', sans-serif;
   font-size: 2.5rem;
-  margin-top: .5em;
+  margin-bottom: 0em;
 }
 
 .intro p {
@@ -131,6 +130,9 @@ main {
     flex-direction: column;
 }
 @media (min-width: 1024px) {
+    .intro h1 {
+        margin-top: .5em;
+    }
     .message {
         flex-direction: row;
         justify-content: space-between;
@@ -211,10 +213,11 @@ hr {
 
 .article {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 0;
 }
+
 @media (min-width: 1024px) {
     .article {
         width: 33%;
@@ -244,13 +247,14 @@ hr {
 .article .text h1 {
     color: hsl(233, 8%, 79%);
     font-size: 2.5rem;
+   
 }
 
 .article .text h2 {
     font-size: 1.3rem;
     color: hsl(240, 100%, 5%);
     position: relative;
-    bottom: .5em; 
+    bottom: 1.5em; 
     cursor: pointer;
 }
 .article .text h2:hover {
@@ -261,7 +265,7 @@ hr {
     color: hsl(236, 13%, 42%);
     font-size: 1rem;
     position: relative;
-    bottom: 1.5em; 
+    bottom: 3em; 
 }
 
 .menubar {
